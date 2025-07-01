@@ -1,0 +1,34 @@
+{
+  "name": "automation-framework-core",
+  "version": "1.0.0",
+  "description": "Framework de automatización con Playwright para múltiples clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:client": "npx playwright test --config=src/clients//config/.config.ts",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": ["playwright", "automation", "testing", "framework"],
+  "author": "Tu Consultoría",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.0",
+    "moment": "^2.29.0"
+  }
+}
