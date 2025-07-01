@@ -1,0 +1,44 @@
+{
+  "validUser": {
+    "username": "testuser@client-a.com",
+    "password": "Test123"
+  },
+  "specialUser": {
+    "username": "special@client-a.com", 
+    "password": "P@ssw0rd@#$"
+  },
+  "invalidUsers": [
+    {
+      "username": "invalid@client-a.com",
+      "password": "wrongpassword"
+    },
+    {
+      "username": "nonexistent@client-a.com",
+      "password": "Test123"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-001",
+      "name": "Premium Service",
+      "price": 99.99,
+      "category": "Services"
+    },
+    {
+      "id": "PROD-002",
+      "name": "Basic Plan",
+      "price": 29.99,
+      "category": "Subscription"
+    }
+  ],
+  "testEnvironment": {
+    "name": "client-a-test",
+    "apiTimeout": 5000,
+    "pageTimeout": 30000
+  },
+  "urls": {
+    "base": "https^:^/^/client-a.example.com",
+    "api": "https^:^/^/api.client-a.example.com",
+    "docs": "https^:^/^/docs.client-a.example.com"
+  }
+}
