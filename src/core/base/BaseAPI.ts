@@ -1,5 +1,5 @@
 import { APIRequestContext, APIResponse } from '@playwright/test';
-import { Logger } from '../utils/Logger';
+import { Logger } from '@core/utils/Logger';
 import { Config } from '../config/Config';
 
 export class BaseAPI {

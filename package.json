@@ -14,21 +14,26 @@
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts"
   },
-  "keywords": ["playwright", "automation", "testing", "framework"],
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "framework"
+  ],
   "author": "Tu Consultoría",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@types/node": "^20.0.0",
-    "typescript": "^5.0.0",
-    "eslint": "^8.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "prettier": "^3.0.0"
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
-    "winston": "^3.11.0",
-    "dotenv": "^16.3.0",
-    "moment": "^2.29.0"
+    "dotenv": "^16.6.1",
+    "moment": "^2.29.0",
+    "winston": "^3.11.0"
   }
 }

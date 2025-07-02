@@ -1,8 +1,8 @@
 import { Page } from '@playwright/test';
 import { Config } from '../config/Config';
-import { Logger } from '../utils/Logger';
+import { Logger } from '@core/utils/Logger';
 import { WaitUtils } from '../utils/WaitUtils';
-import { ScreenshotUtils } from '../utils/ScreenshotUtils';
+import { ScreenshotUtils } from '@core/utils/ScreenshotUtils';
 
 export abstract class BasePage {
   protected page: Page;

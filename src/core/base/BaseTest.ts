@@ -1,6 +1,6 @@
 import { test as base, Page } from '@playwright/test';
 import { Config } from '../config/Config';
-import { Logger } from '../utils/Logger';
+import { Logger } from '@core/utils/Logger';
 
 type TestFixtures = {
   config: Config;
